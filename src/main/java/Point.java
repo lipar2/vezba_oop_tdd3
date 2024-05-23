@@ -8,8 +8,14 @@ private boolean selected= false;
 
  public Point (){}
 
- public Point(int x, int y, boolean selected) {
+ public Point(int x, int y) {
     this.x = x;
     this.y = y;
+}
+
+public Point(int x, int y, boolean selected) {
+    this.x = x;
+    this.y = y;
+    this.selected=selected;
 }
 }
