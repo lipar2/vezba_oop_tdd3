@@ -1,14 +1,7 @@
-public class Point {
+import java.awt.Color;
+import java.awt.Graphics;
 
-    double x;
-    double y;
+public class Point extends Shape {
 
-    public Point(double x, double y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    public double getX() {
-        return this.x;
-    }
+	
 }

@@ -22,7 +22,7 @@ Zahtevi: <br>
 
 * [x]  Deseti zahtev treba da ima getere i setere za kordinate. <br>
 
-* [ ] Jedanaesti zahtiv tacka treba da overajduje metodu draw i da u toj metodi setuje boju na crnu i da u metodi drow lajna napravi sledece atribute x-2, y, x+2 i da u toj metodi nacrta liniju sa sledecim atributama x, y-2, x, y+2 i onda ako je tacka selektovana treba da promeni boju u plavu i da se oko nje nacrta rectangle koristeci metodu draw rectangle: x-2, y-2, 4, 4. <br>
+* [x] Jedanaesti zahtiv tacka treba da overajduje metodu draw i da u toj metodi setuje boju na crnu i da u metodi drow lajna napravi sledece atribute x-2, y, x+2 i da u toj metodi nacrta liniju sa sledecim atributama x, y-2, x, y+2 i onda ako je tacka selektovana treba da promeni boju u plavu i da se oko nje nacrta rectangle koristeci metodu draw rectangle: x-2, y-2, 4, 4. <br>
 
 * [x] Dvanaesti zahtev klasa sadrzi metodu za pomeranje tako sto ce da se tacka pomeri na nov edate kordiinate (MoveTo) treba da overajduje vec zadatu metodu MoveTo iz klase Shape. <br>
 
