@@ -31,5 +31,25 @@ public class Point extends Shape{
         return "("+this.x+","+this.y+")"; 
     }
 
+    public boolean equals(Object obj) {
+
+		if (obj instanceof Point) {
+			Point p = (Point) obj;
+
+			if (p.x == this.x && p.y == this.y)
+
+				return true;
+
+			else
+
+				return false;
+
+		} else {
+
+			return false;
+
+		}
+
+	}
  
 }
