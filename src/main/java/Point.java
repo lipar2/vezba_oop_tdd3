@@ -13,6 +13,6 @@ public class Point extends Shape{
     public Point (int x, int y, boolean selected){
         this.x=x;
         this.y=y;
-        this.selected=selected;
+        this.selected= selected;
     }
 }
