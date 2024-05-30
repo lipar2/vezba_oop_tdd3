@@ -15,4 +15,12 @@ public class Point extends Shape{
         this.y=y;
         this.selected= selected;
     }
+
+    public double distance(int x2, int y2) {
+		int dx = x2 - x;
+		int dy = y2 - y;
+		double d = Math.sqrt(dx * dx + dy * dy);
+		return d;
+	}
+ 
 }
