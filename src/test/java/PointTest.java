@@ -84,4 +84,12 @@ public class PointTest {
         assertEquals(test.getY(),5);
         assertEquals(test.GetSelected(), true);
     }
+
+    @Test
+    public void testMoveTo() {
+        Point test = new Point(2, 3);
+        Point test1 = new Point(5, 6);
+        test.moveTo(5, 6);
+        assertTrue(test.equals(test1));
+    }
 }

@@ -90,6 +90,12 @@ public class Point extends Shape{
             }
     }
 
+    @Override
+    public void moveTo(int x, int y) {
+        this.x=x;
+        this.y=y;
+    }
+
     
  
 }
