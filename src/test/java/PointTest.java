@@ -36,4 +36,12 @@ public class PointTest {
 
     }
 
+    @Test
+    public void Test_Za_TOString(){
+        Point test=new Point(3, 5);
+        String teststring=test.TOString();
+        String text= "(3,5)";
+        assertEquals(teststring, text);
+    }
+
 }
