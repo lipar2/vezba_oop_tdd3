@@ -102,6 +102,11 @@ public class Point extends Shape{
         this.y= y+byY;
     }
 
+    @Override
+    public double comapreTo(Point point1) {
+        return Math.abs(this.distance(0, 0) - point1.distance(0, 0));
+    }
+
     
  
 }

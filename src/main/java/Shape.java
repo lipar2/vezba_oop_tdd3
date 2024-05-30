@@ -5,6 +5,7 @@ public abstract class Shape implements Moveable {
     protected boolean selected;
     public abstract void draw(Graphics g);
 	public abstract boolean contains(int x, int y);
+    public abstract double comapreTo(Point point1);
 
 	
 public Shape() {
