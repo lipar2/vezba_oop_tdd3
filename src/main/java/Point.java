@@ -96,6 +96,12 @@ public class Point extends Shape{
         this.y=y;
     }
 
+    @Override
+    public void moveBy(int byX, int byY) {
+        this.x= x+byX;
+        this.y= y+byY;
+    }
+
     
  
 }

@@ -92,4 +92,12 @@ public class PointTest {
         test.moveTo(5, 6);
         assertTrue(test.equals(test1));
     }
+
+    @Test
+    public void testMoveBy() {
+        Point test = new Point(2, 3);
+        Point test1 = new Point(5, 6);
+        test.moveBy(3, 3);
+        assertTrue(test.equals(test1));
+    }
 }
