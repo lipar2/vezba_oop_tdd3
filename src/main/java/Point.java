@@ -10,4 +10,9 @@ public class Point extends Shape{
     this.x = x;
     this.y = y;
 }
+    public Point (int x, int y, boolean selected){
+        this.x=x;
+        this.y=y;
+        this.selected=selected;
+    }
 }
