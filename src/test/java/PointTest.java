@@ -72,8 +72,8 @@ public class PointTest {
     public void testSELECTABLE() {
         Point test3 = new Point(3, 5, true);
         Point test4 = new Point(3, 5, false);
-        assertTrue(test3.isSelected());
-        assertFalse(test4.isSelected());
+        assertTrue(test3.GetSelected());
+        assertFalse(test4.GetSelected());
 
     }
 
@@ -82,6 +82,6 @@ public class PointTest {
         Point test = new Point(4,5,true);
         assertEquals(test.getX(), 4);
         assertEquals(test.getY(),5);
-        assertEquals(test.isSelected(), true);
+        assertEquals(test.GetSelected(), true);
     }
 }
