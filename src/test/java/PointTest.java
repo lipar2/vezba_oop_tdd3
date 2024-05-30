@@ -52,4 +52,36 @@ public class PointTest {
 
     }
 
+    @Test
+    public void testGET() {
+        Point test1 = new Point(5, 7);
+        assertEquals(test1.getX(), 5);
+        assertEquals(test1.getY(), 7);
+
+    }
+    @Test
+    public void testSET() {
+        Point test1 = new Point();
+        test1.setX(5);
+        test1.setY(7);   
+        assertEquals(test1.getX(), 5);
+        assertEquals(test1.getY(), 7);
+
+    }
+    @Test
+    public void testSELECTABLE() {
+        Point test3 = new Point(3, 5, true);
+        Point test4 = new Point(3, 5, false);
+        assertTrue(test3.isSelected());
+        assertFalse(test4.isSelected());
+
+    }
+
+    @Test
+    public void KonstruktorTest(){
+        Point test = new Point(4,5,true);
+        assertEquals(test.getX(), 4);
+        assertEquals(test.getY(),5);
+        assertEquals(test.isSelected(), true);
+    }
 }
